@@ -1,15 +1,17 @@
 //
-//  main.cpp
+//  Runner.cpp
 //  FirstCPlusPlus
 //
 //  Created by Tschetter, Benjamin on 1/23/17.
 //  Copyright © 2017 Tschetter, Benjamin. All rights reserved.
 //
 
-#include <iostream>
+#include "FirstController.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    FirstController * app = new FirstController();
+    app -> start();
+    
     return 0;
 }
