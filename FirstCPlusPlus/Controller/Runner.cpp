@@ -10,8 +10,15 @@
 
 int main()
 {
+    int integers[5];
+    int doubles[5];
+    
+    int integers [5] = {1, 2, 3, 4, 5};
+    int doubles [5] = {1.1, 2.2, 3.3, 4.4, 5.5};
+    
     FirstController * app = new FirstController();
     app -> start();
+    
     
     return 0;
 }

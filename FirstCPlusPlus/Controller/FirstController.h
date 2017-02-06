@@ -13,5 +13,7 @@ class FirstController
 {
 public:
     void start();
+    void specialOutput();
 };
+
 #endif /* FirstController_h */
